@@ -8,6 +8,10 @@ This project showcases an end-to-end data warehousing solution — from raw data
 
 This project follows the Medallion Architecture pattern with Bronze, Silver, and Gold layers.
 
+
+![Data Architecture](doc/data_architecture.png)
+
+
 🔹 Bronze Layer
 
 Stores raw data exactly as received from source systems. Data is ingested from CSV files into SQL Server without transformation.
